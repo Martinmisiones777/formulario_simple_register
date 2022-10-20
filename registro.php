@@ -50,7 +50,7 @@ $contraseña = $_POST["contraseña"] ;
 //verificamos la conexion a base datos
 if(!$connection) 
         {
-            echo "No se ha podido conectar con el servidor" . mysql_error();
+            echo "No se ha podido conectar con el servidor";
         }
   else
         {
